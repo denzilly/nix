@@ -81,3 +81,15 @@ def calendar_widget():
 <!-- TradingView Widget END -->"""
 
     return widget
+
+
+def alternate_calendar_widget():
+
+    widget = """<script type="text/javascript" src="https://www.tradays.com/c/js/widgets/calendar/widget.js?8"></script>
+<div id="economicCalendarWidget"></div>
+<script type="text/javascript">
+    new economicCalendar({ width: "510", height: "600", mode: 2 });
+</script>"""
+
+    return widget
+
